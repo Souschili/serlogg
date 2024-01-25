@@ -1,0 +1,172 @@
+2024-01-26 00:11:25.224 +04:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-01-26 00:11:25.276 +04:00 [DBG] Hosting starting
+2024-01-26 00:11:25.420 +04:00 [INF] Now listening on: https://localhost:7209
+2024-01-26 00:11:25.420 +04:00 [INF] Now listening on: http://localhost:5082
+2024-01-26 00:11:25.421 +04:00 [DBG] Loaded hosting startup assembly serlogg
+2024-01-26 00:11:25.421 +04:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-01-26 00:11:25.422 +04:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-01-26 00:11:25.423 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-26 00:11:25.423 +04:00 [INF] Hosting environment: Development
+2024-01-26 00:11:25.424 +04:00 [INF] Content root path: C:\Users\Orkhan\source\repos\serlogg\serlogg
+2024-01-26 00:11:25.424 +04:00 [DBG] Hosting started
+2024-01-26 00:11:25.577 +04:00 [DBG] Connection id "0HN0TS77EB01L" accepted.
+2024-01-26 00:11:25.577 +04:00 [DBG] Connection id "0HN0TS77EB01K" accepted.
+2024-01-26 00:11:25.579 +04:00 [DBG] Connection id "0HN0TS77EB01L" started.
+2024-01-26 00:11:25.579 +04:00 [DBG] Connection id "0HN0TS77EB01K" started.
+2024-01-26 00:11:25.591 +04:00 [DBG] Connection id "0HN0TS77EB01L" received FIN.
+2024-01-26 00:11:25.591 +04:00 [DBG] Connection id "0HN0TS77EB01K" received FIN.
+2024-01-26 00:11:25.599 +04:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-01-26 00:11:25.599 +04:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-01-26 00:11:25.649 +04:00 [DBG] Connection id "0HN0TS77EB01L" stopped.
+2024-01-26 00:11:25.650 +04:00 [DBG] Connection id "0HN0TS77EB01K" stopped.
+2024-01-26 00:11:25.653 +04:00 [DBG] Connection id "0HN0TS77EB01K" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-01-26 00:11:25.653 +04:00 [DBG] Connection id "0HN0TS77EB01L" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-01-26 00:11:25.712 +04:00 [DBG] Connection id "0HN0TS77EB01M" accepted.
+2024-01-26 00:11:25.714 +04:00 [DBG] Connection id "0HN0TS77EB01M" started.
+2024-01-26 00:11:25.736 +04:00 [DBG] Connection 0HN0TS77EB01M established using the following protocol: "Tls12"
+2024-01-26 00:11:25.768 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7209/swagger/index.html - null null
+2024-01-26 00:11:25.833 +04:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-01-26 00:11:25.842 +04:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2024-01-26 00:11:25.842 +04:00 [DBG] Request did not match any endpoints
+2024-01-26 00:11:25.896 +04:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-01-26 00:11:25.907 +04:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-01-26 00:11:25.909 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7209/swagger/index.html - 200 null text/html;charset=utf-8 143.0828ms
+2024-01-26 00:11:25.917 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7209/_framework/aspnetcore-browser-refresh.js - null null
+2024-01-26 00:11:25.921 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7209/_framework/aspnetcore-browser-refresh.js - 200 13750 application/javascript; charset=utf-8 4.7337ms
+2024-01-26 00:11:25.925 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7209/_vs/browserLink - null null
+2024-01-26 00:11:25.950 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7209/_vs/browserLink - 200 null text/javascript; charset=UTF-8 25.7825ms
+2024-01-26 00:11:25.993 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7209/swagger/v1/swagger.json - null null
+2024-01-26 00:11:25.995 +04:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2024-01-26 00:11:25.996 +04:00 [DBG] Request did not match any endpoints
+2024-01-26 00:11:26.049 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7209/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 55.9313ms
+2024-01-26 00:11:33.203 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7209/WeatherForecast - null null
+2024-01-26 00:11:33.208 +04:00 [DBG] 1 candidate(s) found for the request path '/WeatherForecast'
+2024-01-26 00:11:33.210 +04:00 [DBG] Endpoint 'serlogg.Controllers.WeatherForecastController.Get (serlogg)' with route pattern 'WeatherForecast' is valid for the request path '/WeatherForecast'
+2024-01-26 00:11:33.212 +04:00 [DBG] Request matched endpoint 'serlogg.Controllers.WeatherForecastController.Get (serlogg)'
+2024-01-26 00:11:33.215 +04:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-01-26 00:11:33.218 +04:00 [INF] Executing endpoint 'serlogg.Controllers.WeatherForecastController.Get (serlogg)'
+2024-01-26 00:11:33.228 +04:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[serlogg.WeatherForecast] Get() on controller serlogg.Controllers.WeatherForecastController (serlogg).
+2024-01-26 00:11:33.231 +04:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-01-26 00:11:33.232 +04:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-01-26 00:11:33.234 +04:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-01-26 00:11:33.235 +04:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-01-26 00:11:33.236 +04:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-01-26 00:11:33.239 +04:00 [DBG] Executing controller factory for controller serlogg.Controllers.WeatherForecastController (serlogg)
+2024-01-26 00:11:33.240 +04:00 [DBG] Executed controller factory for controller serlogg.Controllers.WeatherForecastController (serlogg)
+2024-01-26 00:11:33.243 +04:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-01-26 00:11:33.247 +04:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2024-01-26 00:11:33.249 +04:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2024-01-26 00:11:33.250 +04:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-01-26 00:11:33.251 +04:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-01-26 00:11:33.252 +04:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-01-26 00:11:33.253 +04:00 [INF] Executing ObjectResult, writing value of type 'serlogg.WeatherForecast[]'.
+2024-01-26 00:11:33.264 +04:00 [INF] Executed action serlogg.Controllers.WeatherForecastController.Get (serlogg) in 24.7364ms
+2024-01-26 00:11:33.265 +04:00 [INF] Executed endpoint 'serlogg.Controllers.WeatherForecastController.Get (serlogg)'
+2024-01-26 00:11:33.266 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7209/WeatherForecast - 200 null application/json; charset=utf-8 63.7498ms
+2024-01-26 00:48:50.874 +04:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-01-26 00:48:50.923 +04:00 [DBG] Hosting starting
+2024-01-26 00:48:51.050 +04:00 [INF] Now listening on: https://localhost:7209
+2024-01-26 00:48:51.051 +04:00 [INF] Now listening on: http://localhost:5082
+2024-01-26 00:48:51.051 +04:00 [DBG] Loaded hosting startup assembly serlogg
+2024-01-26 00:48:51.052 +04:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-01-26 00:48:51.052 +04:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-01-26 00:48:51.053 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-26 00:48:51.054 +04:00 [INF] Hosting environment: Development
+2024-01-26 00:48:51.054 +04:00 [INF] Content root path: C:\Users\Orkhan\source\repos\serlogg\serlogg
+2024-01-26 00:48:51.055 +04:00 [DBG] Hosting started
+2024-01-26 00:48:51.269 +04:00 [DBG] Connection id "0HN0TSS4MTV80" accepted.
+2024-01-26 00:48:51.269 +04:00 [DBG] Connection id "0HN0TSS4MTV7V" accepted.
+2024-01-26 00:48:51.270 +04:00 [DBG] Connection id "0HN0TSS4MTV80" started.
+2024-01-26 00:48:51.270 +04:00 [DBG] Connection id "0HN0TSS4MTV7V" started.
+2024-01-26 00:48:51.284 +04:00 [DBG] Connection id "0HN0TSS4MTV7V" received FIN.
+2024-01-26 00:48:51.284 +04:00 [DBG] Connection id "0HN0TSS4MTV80" received FIN.
+2024-01-26 00:48:51.293 +04:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-01-26 00:48:51.293 +04:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-01-26 00:48:51.320 +04:00 [DBG] Connection id "0HN0TSS4MTV80" stopped.
+2024-01-26 00:48:51.321 +04:00 [DBG] Connection id "0HN0TSS4MTV7V" stopped.
+2024-01-26 00:48:51.324 +04:00 [DBG] Connection id "0HN0TSS4MTV7V" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-01-26 00:48:51.324 +04:00 [DBG] Connection id "0HN0TSS4MTV80" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-01-26 00:48:53.493 +04:00 [DBG] Connection id "0HN0TSS4MTV81" accepted.
+2024-01-26 00:48:53.494 +04:00 [DBG] Connection id "0HN0TSS4MTV81" started.
+2024-01-26 00:48:53.520 +04:00 [DBG] Connection 0HN0TSS4MTV81 established using the following protocol: "Tls12"
+2024-01-26 00:48:53.554 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7209/swagger/index.html - null null
+2024-01-26 00:48:53.620 +04:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-01-26 00:48:53.629 +04:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2024-01-26 00:48:53.630 +04:00 [DBG] Request did not match any endpoints
+2024-01-26 00:48:53.684 +04:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-01-26 00:48:53.697 +04:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-01-26 00:48:53.700 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7209/swagger/index.html - 200 null text/html;charset=utf-8 148.8843ms
+2024-01-26 00:48:53.704 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7209/_framework/aspnetcore-browser-refresh.js - null null
+2024-01-26 00:48:53.710 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7209/_framework/aspnetcore-browser-refresh.js - 200 13750 application/javascript; charset=utf-8 6.1399ms
+2024-01-26 00:48:53.714 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7209/_vs/browserLink - null null
+2024-01-26 00:48:53.746 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7209/_vs/browserLink - 200 null text/javascript; charset=UTF-8 31.5825ms
+2024-01-26 00:48:53.783 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7209/swagger/v1/swagger.json - null null
+2024-01-26 00:48:53.785 +04:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2024-01-26 00:48:53.786 +04:00 [DBG] Request did not match any endpoints
+2024-01-26 00:48:53.840 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7209/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 56.5221ms
+2024-01-26 00:48:57.300 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7209/WeatherForecast - null null
+2024-01-26 00:48:57.305 +04:00 [DBG] 1 candidate(s) found for the request path '/WeatherForecast'
+2024-01-26 00:48:57.307 +04:00 [DBG] Endpoint 'serlogg.Controllers.WeatherForecastController.Get (serlogg)' with route pattern 'WeatherForecast' is valid for the request path '/WeatherForecast'
+2024-01-26 00:48:57.309 +04:00 [DBG] Request matched endpoint 'serlogg.Controllers.WeatherForecastController.Get (serlogg)'
+2024-01-26 00:48:57.311 +04:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-01-26 00:48:57.313 +04:00 [INF] Executing endpoint 'serlogg.Controllers.WeatherForecastController.Get (serlogg)'
+2024-01-26 00:48:57.322 +04:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[serlogg.WeatherForecast] Get() on controller serlogg.Controllers.WeatherForecastController (serlogg).
+2024-01-26 00:48:57.325 +04:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-01-26 00:48:57.326 +04:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-01-26 00:48:57.327 +04:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-01-26 00:48:57.329 +04:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-01-26 00:48:57.330 +04:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-01-26 00:48:57.334 +04:00 [DBG] Executing controller factory for controller serlogg.Controllers.WeatherForecastController (serlogg)
+2024-01-26 00:48:57.335 +04:00 [DBG] Executed controller factory for controller serlogg.Controllers.WeatherForecastController (serlogg)
+2024-01-26 00:48:57.337 +04:00 [INF] Test loger
+2024-01-26 00:48:57.340 +04:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-01-26 00:48:57.343 +04:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2024-01-26 00:48:57.344 +04:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2024-01-26 00:48:57.344 +04:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-01-26 00:48:57.348 +04:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-01-26 00:48:57.349 +04:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-01-26 00:48:57.350 +04:00 [INF] Executing ObjectResult, writing value of type 'serlogg.WeatherForecast[]'.
+2024-01-26 00:48:57.360 +04:00 [INF] Executed action serlogg.Controllers.WeatherForecastController.Get (serlogg) in 26.0898ms
+2024-01-26 00:48:57.361 +04:00 [INF] Executed endpoint 'serlogg.Controllers.WeatherForecastController.Get (serlogg)'
+2024-01-26 00:48:57.363 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7209/WeatherForecast - 200 null application/json; charset=utf-8 64.5368ms
+2024-01-26 00:50:23.572 +04:00 [INF] Now listening on: https://localhost:7209
+2024-01-26 00:50:23.585 +04:00 [INF] Now listening on: http://localhost:5082
+2024-01-26 00:50:23.587 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-26 00:50:23.588 +04:00 [INF] Hosting environment: Development
+2024-01-26 00:50:23.588 +04:00 [INF] Content root path: C:\Users\Orkhan\source\repos\serlogg\serlogg
+2024-01-26 00:50:24.182 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7209/swagger/index.html - null null
+2024-01-26 00:50:24.364 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7209/swagger/index.html - 200 null text/html;charset=utf-8 185.5978ms
+2024-01-26 00:50:24.368 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7209/_framework/aspnetcore-browser-refresh.js - null null
+2024-01-26 00:50:24.375 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7209/_framework/aspnetcore-browser-refresh.js - 200 13750 application/javascript; charset=utf-8 6.6715ms
+2024-01-26 00:50:24.377 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7209/_vs/browserLink - null null
+2024-01-26 00:50:26.085 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7209/_vs/browserLink - 200 null text/javascript; charset=UTF-8 1707.8811ms
+2024-01-26 00:50:26.114 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7209/swagger/v1/swagger.json - null null
+2024-01-26 00:50:26.168 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7209/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 53.9257ms
+2024-01-26 00:50:37.134 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7209/WeatherForecast - null null
+2024-01-26 00:50:37.140 +04:00 [INF] Executing endpoint 'serlogg.Controllers.WeatherForecastController.Get (serlogg)'
+2024-01-26 00:50:37.149 +04:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[serlogg.WeatherForecast] Get() on controller serlogg.Controllers.WeatherForecastController (serlogg).
+2024-01-26 00:50:37.152 +04:00 [INF] Test loger
+2024-01-26 00:50:37.157 +04:00 [INF] Executing ObjectResult, writing value of type 'serlogg.WeatherForecast[]'.
+2024-01-26 00:50:37.166 +04:00 [INF] Executed action serlogg.Controllers.WeatherForecastController.Get (serlogg) in 12.6616ms
+2024-01-26 00:50:37.167 +04:00 [INF] Executed endpoint 'serlogg.Controllers.WeatherForecastController.Get (serlogg)'
+2024-01-26 00:50:37.167 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7209/WeatherForecast - 200 null application/json; charset=utf-8 33.4688ms
