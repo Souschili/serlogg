@@ -1,6 +1,0 @@
-2024-01-26 03:09:15.219 +04:00 [INF] HTTP GET /WeatherForecast responded 200 in 19.2207 ms
-2024-01-26 03:09:35.939 +04:00 [INF] HTTP GET /WeatherForecast responded 200 in 0.8597 ms
-2024-01-26 03:09:36.498 +04:00 [INF] HTTP GET /WeatherForecast responded 200 in 0.2334 ms
-2024-01-26 03:10:38.640 +04:00 [INF] ::1 https localhost:7209 GET /WeatherForecast responded 200 in 22.0424 ms
-2024-01-26 03:10:40.011 +04:00 [INF] ::1 https localhost:7209 GET /WeatherForecast responded 200 in 0.6811 ms
-2024-01-26 03:10:40.581 +04:00 [INF] ::1 https localhost:7209 GET /WeatherForecast responded 200 in 0.2785 ms
